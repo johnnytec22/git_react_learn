@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    background: blue;
+    padding: 20px 40px;
+    
+}
+#main-content {
+    padding-top: 15%;
+    text-align: center;
+}
+
+#inner-content {
+    margin: 0;
+    padding: 0;
+}
+#inner-content #welcome-text {
+    margin-bottom: 35px;
+    padding: 15px;
+}
+#inner-content #welcome-text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#inner-content #welcome-text p {
+    font-size: 23px;
+    
+}
+#call-to-actions a {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    
+}
+#call-to-actions a button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px;
+    line-height: 1.2;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+#call-to-actions a button#register-btn {
+    background: white;
+    border: 1px solid gainsboro;
+}
+
+#call-to-actions a button#login-btn {
+    background: blue;
+    color: white;
+}
